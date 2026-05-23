@@ -1,9 +1,9 @@
-# Copyright 1999-2022 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
 
-inherit eutils desktop
+inherit desktop
 
 DESCRIPTION="Visual Studio Code is a source-code editor developed by Microsoft"
 HOMEPAGE="https://code.visualstudio.com"
@@ -20,10 +20,10 @@ RDEPEND="${DEPEND}
 	gnome-keyring? (
 		app-crypt/libsecret[crypt]
 		gnome-base/gnome-keyring )
-	>=dev-libs/nss-3.68
-	>=net-print/cups-2.0.0
-	>=x11-libs/gtk+-3.24.29:3
-	>=x11-libs/libxkbcommon-1.3.1
+	>=dev-libs/nss-3.79
+	>=net-print/cups-2.4.0
+	>=x11-libs/gtk+-3.24.33:3
+	>=x11-libs/libxkbcommon-1.5.0
 	>=x11-libs/libxkbfile-1.1.0
 	!app-editors/vscode
 "
