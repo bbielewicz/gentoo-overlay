@@ -20,9 +20,9 @@ RDEPEND="${DEPEND}
 	gnome-keyring? (
 		app-crypt/libsecret[crypt]
 		gnome-base/gnome-keyring )
-	>=dev-libs/nss-3.79
+	>=dev-libs/nss-3.90
 	>=net-print/cups-2.4.0
-	>=x11-libs/gtk+-3.24.33:3
+	>=x11-libs/gtk+-3.24.35:3
 	>=x11-libs/libxkbcommon-1.5.0
 	>=x11-libs/libxkbfile-1.1.0
 	!app-editors/vscode
