@@ -1,2 +1,3 @@
 # gentoo-overlay
-Personal Gentoo Overlay
+
+This is a personal Gentoo overlay.
